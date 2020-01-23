@@ -21,3 +21,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="beryllium"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+
+PRODUCT_COPY_FILES += vendor/aosp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
