@@ -14,9 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_beryllium.mk
+    $(LOCAL_DIR)/du.mk
 
-COMMON_LUNCH_CHOICES := \
-    xtended_beryllium-user \
-    xtended_beryllium-userdebug \
-    xtended_beryllium-eng
